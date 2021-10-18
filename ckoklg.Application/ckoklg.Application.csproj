@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ckoklg.CrossCutting.Auth\ckoklg.CrossCutting.Auth.csproj" />
+    <ProjectReference Include="..\ckoklg.CrossCutting.ExceptionHandler\ckoklg.CrossCutting.ExceptionHandler.csproj" />
+    <ProjectReference Include="..\ckoklg.CrossCutting.Notification\ckoklg.CrossCutting.Notification.csproj" />
+    <ProjectReference Include="..\ckoklg.Domain\ckoklg.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

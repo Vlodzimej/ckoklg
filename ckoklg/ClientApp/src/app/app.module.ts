@@ -22,16 +22,11 @@ import { environment } from '../environments/environment';
 import { UsersComponent } from './users/users.component';
 import { AccountComponent } from './account/account.component';
 
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
+
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavMenuComponent,
-    HomeComponent,
-    LoginComponent,
-    DashboardComponent,
-    UsersComponent,
-    AccountComponent
-  ],
+  declarations: [AppComponent, NavMenuComponent, HomeComponent, LoginComponent, DashboardComponent, UsersComponent, AccountComponent],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
@@ -43,12 +38,17 @@ import { AccountComponent } from './account/account.component';
       { path: 'users', component: UsersComponent },
       { path: 'accounts', component: AccountComponent },
     ]),
-    Interceptor,    
+    Interceptor,
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(), // ToastrModule added
-    NgxLoadingModule.forRoot({}), ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    NgxLoadingModule.forRoot({}),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+    }),
+    MatSelectModule,
+    MatInputModule,
   ],
-  providers: [ModuleService, UserService,AlertService, ErrorService, AppComponent, NavMenuComponent ],
-  bootstrap: [AppComponent]
+  providers: [ModuleService, UserService, AlertService, ErrorService, AppComponent, NavMenuComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

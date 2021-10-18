@@ -1,5 +1,5 @@
-# Template DotNet5 Angular11
-Welcome to this template created to help the developers to start a new project using .Net as backend platform and Angular 11 as frontend framework.
+# ckoklg DotNet5 Angular11
+Welcome to this ckoklg created to help the developers to start a new project using .Net as backend platform and Angular 11 as frontend framework.
 
 ### Demo:
 - Portuguese: In Progress
