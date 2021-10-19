@@ -1,4 +1,4 @@
-﻿namespace ckoklg.Application.ViewModels
+﻿namespace Ckoklg.Application.ViewModels
 {
     public class EntityViewModel
 	{

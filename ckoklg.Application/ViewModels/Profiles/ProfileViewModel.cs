@@ -1,4 +1,4 @@
-﻿namespace ckoklg.Application.ViewModels.Profiles
+﻿namespace Ckoklg.Application.ViewModels.Profiles
 {
     public class ProfileViewModel: EntityViewModel
 	{

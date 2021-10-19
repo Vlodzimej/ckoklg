@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
-using ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.CrossCutting.Auth.ViewModels;
 
-namespace ckoklg.CrossCutting.Auth.Interfaces
+namespace Ckoklg.CrossCutting.Auth.Interfaces
 {
     public interface IAuthService
     {

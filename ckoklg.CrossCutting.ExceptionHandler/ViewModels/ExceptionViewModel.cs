@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Serialization;
 using System.Net;
 
-namespace ckoklg.CrossCutting.ExceptionHandler.ViewModels
+namespace Ckoklg.CrossCutting.ExceptionHandler.ViewModels
 {
     internal class ExceptionViewModel
     {

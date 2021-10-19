@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ckoklg.Data.Context;
+using Ckoklg.Data.Context;
 
-namespace ckoklg.Data.Migrations
+namespace Ckoklg.Data.Migrations
 {
     [DbContext(typeof(MySQLContext))]
     [Migration("20210118143147_FieldsInUserAndModule")]
@@ -19,7 +19,7 @@ namespace ckoklg.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.Module", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.Module", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -57,7 +57,7 @@ namespace ckoklg.Data.Migrations
                     b.ToTable("Modules");
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.ModuleProfile", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.ModuleProfile", b =>
                 {
                     b.Property<int>("ModuleId")
                         .HasColumnType("int");
@@ -72,7 +72,7 @@ namespace ckoklg.Data.Migrations
                     b.ToTable("ModuleProfiles");
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.Profile", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.Profile", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -104,7 +104,7 @@ namespace ckoklg.Data.Migrations
                     b.ToTable("Profiles");
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.User", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -150,15 +150,15 @@ namespace ckoklg.Data.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.ModuleProfile", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.ModuleProfile", b =>
                 {
-                    b.HasOne("ckoklg.Domain.Entities.Module", "Module")
+                    b.HasOne("Ckoklg.Domain.Entities.Module", "Module")
                         .WithMany()
                         .HasForeignKey("ModuleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ckoklg.Domain.Entities.Profile", "Profile")
+                    b.HasOne("Ckoklg.Domain.Entities.Profile", "Profile")
                         .WithMany()
                         .HasForeignKey("ProfileId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -169,9 +169,9 @@ namespace ckoklg.Data.Migrations
                     b.Navigation("Profile");
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.User", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.User", b =>
                 {
-                    b.HasOne("ckoklg.Domain.Entities.Profile", "Profile")
+                    b.HasOne("Ckoklg.Domain.Entities.Profile", "Profile")
                         .WithMany()
                         .HasForeignKey("ProfileId")
                         .OnDelete(DeleteBehavior.Cascade)

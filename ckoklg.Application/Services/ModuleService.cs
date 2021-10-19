@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using System.Collections.Generic;
 using System.Linq;
-using ckoklg.Application.Interfaces;
-using ckoklg.Application.ViewModels.Modules;
-using ckoklg.Domain.Entities;
-using ckoklg.Domain.Interfaces;
+using Ckoklg.Application.Interfaces;
+using Ckoklg.Application.ViewModels.Modules;
+using Ckoklg.Domain.Entities;
+using Ckoklg.Domain.Interfaces;
 
-namespace ckoklg.Application.Services
+namespace Ckoklg.Application.Services
 {
 	public class ModuleService: IModuleService
 	{

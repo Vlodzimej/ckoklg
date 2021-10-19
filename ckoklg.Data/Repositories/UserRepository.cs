@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
-using ckoklg.Data.Context;
-using ckoklg.Domain.Entities;
-using ckoklg.Domain.Interfaces;
+using Ckoklg.Data.Context;
+using Ckoklg.Domain.Entities;
+using Ckoklg.Domain.Interfaces;
 
-namespace ckoklg.Data.Repositories
+namespace Ckoklg.Data.Repositories
 {
     public class UserRepository : Repository<User>, IUserRepository
 	{

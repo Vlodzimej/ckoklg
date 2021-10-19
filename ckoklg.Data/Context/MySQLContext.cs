@@ -2,10 +2,10 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using System;
 using System.Linq;
-using ckoklg.Data.Mappings;
-using ckoklg.Domain.Entities;
+using Ckoklg.Data.Mappings;
+using Ckoklg.Domain.Entities;
 
-namespace ckoklg.Data.Context
+namespace Ckoklg.Data.Context
 {
     public class MySQLContext : DbContext
     {
@@ -47,10 +47,10 @@ namespace ckoklg.Data.Context
 
             User[] _users = new[]
             {
-                new User { Id = 1, Name = "Admin", IsActive = true, Email = "admin@ckoklg.com",
+                new User { Id = 1, Name = "Admin", IsActive = true, Email = "admin@Ckoklg.com",
                     IsAuthorised = true, Password = "8D66A53A381493BEC08DA23CEF5A43767F20A42C", CreatedUser = 1,
                     CreatedDate = DateTime.Now, ProfileId = 1},
-                new User { Id = 2, Name = "User", IsActive = true, Email = "user@ckoklg.com",
+                new User { Id = 2, Name = "User", IsActive = true, Email = "user@Ckoklg.com",
                     IsAuthorised = true, Password = "8D66A53A381493BEC08DA23CEF5A43767F20A42C", CreatedUser = 1,
                     CreatedDate = DateTime.Now, ProfileId = 2}
             };

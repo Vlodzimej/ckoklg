@@ -46,13 +46,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ckoklg.Application\ckoklg.Application.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.Auth\ckoklg.CrossCutting.Auth.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.ExceptionHandler\ckoklg.CrossCutting.ExceptionHandler.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.IoC\ckoklg.CrossCutting.IoC.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.Notification\ckoklg.CrossCutting.Notification.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.Swagger\ckoklg.CrossCutting.Swagger.csproj" />
-    <ProjectReference Include="..\ckoklg.Data\ckoklg.Data.csproj" />
+    <ProjectReference Include="..\Ckoklg.Application\Ckoklg.Application.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.Auth\Ckoklg.CrossCutting.Auth.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.ExceptionHandler\Ckoklg.CrossCutting.ExceptionHandler.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.IoC\Ckoklg.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.Notification\Ckoklg.CrossCutting.Notification.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.Swagger\Ckoklg.CrossCutting.Swagger.csproj" />
+    <ProjectReference Include="..\Ckoklg.Data\Ckoklg.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

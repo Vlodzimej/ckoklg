@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ckoklg.CrossCutting.Notification.ViewModels
+namespace Ckoklg.CrossCutting.Notification.ViewModels
 {
 	public class EmailViewModel
 	{

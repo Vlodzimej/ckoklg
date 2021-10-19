@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ckoklg.Domain.Entities;
+using Ckoklg.Domain.Entities;
 
-namespace ckoklg.Data.Mappings
+namespace Ckoklg.Data.Mappings
 {
 	public class ModuleProfileMap : IEntityTypeConfiguration<ModuleProfile>
     {

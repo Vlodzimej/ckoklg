@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ckoklg.Domain\ckoklg.Domain.csproj" />
+    <ProjectReference Include="..\Ckoklg.Domain\Ckoklg.Domain.csproj" />
   </ItemGroup>
 
 </Project>

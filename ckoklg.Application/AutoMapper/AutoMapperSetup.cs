@@ -1,13 +1,13 @@
-﻿using ckoklg.Application.Services;
-using ckoklg.Application.ViewModels.Modules;
-using ckoklg.Application.ViewModels.Profiles;
-using ckoklg.Application.ViewModels.Users;
-using ckoklg.CrossCutting.Auth.ViewModels;
-using ckoklg.Domain.Entities;
+﻿using Ckoklg.Application.Services;
+using Ckoklg.Application.ViewModels.Modules;
+using Ckoklg.Application.ViewModels.Profiles;
+using Ckoklg.Application.ViewModels.Users;
+using Ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.Domain.Entities;
 using Profile = AutoMapper.Profile;
-using ProfileUser = ckoklg.Domain.Entities.Profile;
+using ProfileUser = Ckoklg.Domain.Entities.Profile;
 
-namespace ckoklg.Application.AutoMapper
+namespace Ckoklg.Application.AutoMapper
 {
     public class AutoMapperSetup : Profile
     {

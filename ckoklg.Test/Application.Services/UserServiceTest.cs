@@ -1,17 +1,17 @@
 using AutoMapper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using ckoklg.Application.AutoMapper;
-using ckoklg.Application.Interfaces;
-using ckoklg.Application.Services;
-using ckoklg.Application.ViewModels.Users;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.ExceptionHandler.Extensions;
-using ckoklg.CrossCutting.Notification.Interfaces;
-using ckoklg.Domain.Entities;
-using ckoklg.Domain.Interfaces;
+using Ckoklg.Application.AutoMapper;
+using Ckoklg.Application.Interfaces;
+using Ckoklg.Application.Services;
+using Ckoklg.Application.ViewModels.Users;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.ExceptionHandler.Extensions;
+using Ckoklg.CrossCutting.Notification.Interfaces;
+using Ckoklg.Domain.Entities;
+using Ckoklg.Domain.Interfaces;
 
-namespace ckoklg.Test.Application.Services
+namespace Ckoklg.Test.Application.Services
 {
 	[TestClass]
 	public class UserServiceTest

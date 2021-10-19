@@ -10,15 +10,15 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using System;
-using ckoklg.Application.AutoMapper;
-using ckoklg.CrossCutting.Auth.Providers;
-using ckoklg.CrossCutting.ExceptionHandler.Providers;
-using ckoklg.CrossCutting.IoC;
-using ckoklg.CrossCutting.Notification.ViewModels;
-using ckoklg.CrossCutting.Swagger;
-using ckoklg.Data.Context;
+using Ckoklg.Application.AutoMapper;
+using Ckoklg.CrossCutting.Auth.Providers;
+using Ckoklg.CrossCutting.ExceptionHandler.Providers;
+using Ckoklg.CrossCutting.IoC;
+using Ckoklg.CrossCutting.Notification.ViewModels;
+using Ckoklg.CrossCutting.Swagger;
+using Ckoklg.Data.Context;
 
-namespace ckoklg
+namespace Ckoklg
 {
     public class Startup
     {

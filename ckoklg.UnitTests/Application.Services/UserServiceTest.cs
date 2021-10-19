@@ -3,9 +3,9 @@ using Moq;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using ckoklg.Application.Interfaces;
+using Ckoklg.Application.Interfaces;
 
-namespace ckoklg.UnitTests.Application.Services
+namespace Ckoklg.UnitTests.Application.Services
 {
     [TestClass]
     public class UserServiceTest

@@ -2,18 +2,18 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using ckoklg.Application.Interfaces;
-using ckoklg.Application.ViewModels.Users;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.Auth.ViewModels;
-using ckoklg.CrossCutting.ExceptionHandler.Extensions;
-using ckoklg.CrossCutting.Notification.Interfaces;
-using ckoklg.CrossCutting.Notification.ViewModels;
-using ckoklg.Domain.Entities;
-using ckoklg.Domain.Interfaces;
-using Profile = ckoklg.Domain.Entities.Profile;
+using Ckoklg.Application.Interfaces;
+using Ckoklg.Application.ViewModels.Users;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.CrossCutting.ExceptionHandler.Extensions;
+using Ckoklg.CrossCutting.Notification.Interfaces;
+using Ckoklg.CrossCutting.Notification.ViewModels;
+using Ckoklg.Domain.Entities;
+using Ckoklg.Domain.Interfaces;
+using Profile = Ckoklg.Domain.Entities.Profile;
 
-namespace ckoklg.Application.Services
+namespace Ckoklg.Application.Services
 {
     public class UserService : IUserService
     {
@@ -84,7 +84,7 @@ namespace ckoklg.Application.Services
             _user.Password = UtilsService.EncryptPassword(user.Password);
             repository.Update(_user);
 
-            emailSender.SendEmailAsync(new EmailViewModel(new string[] { _user.Email }, "Change Password - ckoklg", "PASSWORD-CHANGED"), new string[] { _user.Name });
+            emailSender.SendEmailAsync(new EmailViewModel(new string[] { _user.Email }, "Change Password - Ckoklg", "PASSWORD-CHANGED"), new string[] { _user.Name });
 
             return true;
         }
@@ -143,7 +143,7 @@ namespace ckoklg.Application.Services
 
                 string _generateUrlEmail = UtilsService.GenerateURL(_user.Code, _user.Email, host);
 
-                emailSender.SendEmailAsync(new EmailViewModel(new string[] { _user.Email }, "Account Created - ckoklg", "ACCOUNT-CREATED"), new string[] { _user.Name, _generateUrlEmail });
+                emailSender.SendEmailAsync(new EmailViewModel(new string[] { _user.Email }, "Account Created - Ckoklg", "ACCOUNT-CREATED"), new string[] { _user.Name, _generateUrlEmail });
 
                 return true;
             }

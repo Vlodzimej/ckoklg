@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ckoklg.Data.Context;
+using Ckoklg.Data.Context;
 
-namespace ckoklg.Data.Migrations
+namespace Ckoklg.Data.Migrations
 {
     [DbContext(typeof(MySQLContext))]
     [Migration("20210118081332_TableUser")]
@@ -19,7 +19,7 @@ namespace ckoklg.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.User", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

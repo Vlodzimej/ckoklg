@@ -1,6 +1,6 @@
-﻿using ckoklg.Application.Interfaces;
+﻿using Ckoklg.Application.Interfaces;
 
-namespace ckoklg.Application.Services
+namespace Ckoklg.Application.Services
 {
 	public class ProfileService: IProfileService
 	{

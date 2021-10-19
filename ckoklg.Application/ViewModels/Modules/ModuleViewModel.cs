@@ -1,4 +1,4 @@
-﻿namespace ckoklg.Application.ViewModels.Modules
+﻿namespace Ckoklg.Application.ViewModels.Modules
 {
     public class ModuleViewModel: EntityViewModel
 	{

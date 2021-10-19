@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
-using ckoklg.CrossCutting.ExceptionHandler.Extensions;
-using ckoklg.CrossCutting.ExceptionHandler.ViewModels;
+using Ckoklg.CrossCutting.ExceptionHandler.Extensions;
+using Ckoklg.CrossCutting.ExceptionHandler.ViewModels;
 
-namespace ckoklg.CrossCutting.ExceptionHandler.Providers
+namespace Ckoklg.CrossCutting.ExceptionHandler.Providers
 {
     public static class ExceptionHandlerMiddleware
     {

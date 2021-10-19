@@ -1,4 +1,4 @@
-﻿namespace ckoklg.Application.ViewModels.Users
+﻿namespace Ckoklg.Application.ViewModels.Users
 {
     public class UserResponseAuthenticateViewModel : EntityViewModel
 	{

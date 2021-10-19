@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using ckoklg.Application.Interfaces;
-using ckoklg.Application.Services;
-using ckoklg.Application.ViewModels.Users;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.Application.Interfaces;
+using Ckoklg.Application.Services;
+using Ckoklg.Application.ViewModels.Users;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.Auth.ViewModels;
 
-namespace ckoklg.Controllers
+namespace Ckoklg.Controllers
 {
     [Route("api/[controller]"), ApiController]
 	public class UsersController : ControllerBase

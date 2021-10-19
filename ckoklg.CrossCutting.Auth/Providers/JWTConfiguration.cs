@@ -3,9 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Text;
-using ckoklg.CrossCutting.Auth.Models;
+using Ckoklg.CrossCutting.Auth.Models;
 
-namespace ckoklg.CrossCutting.Auth.Providers
+namespace Ckoklg.CrossCutting.Auth.Providers
 {
     public static class JWTConfiguration
     {

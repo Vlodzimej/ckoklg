@@ -1,4 +1,4 @@
-﻿namespace ckoklg.Domain.Entities
+﻿namespace Ckoklg.Domain.Entities
 {
     public class User : Entity
     {

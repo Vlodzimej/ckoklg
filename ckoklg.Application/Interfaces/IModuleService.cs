@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ckoklg.Application.ViewModels.Modules;
+using Ckoklg.Application.ViewModels.Modules;
 
-namespace ckoklg.Application.Interfaces
+namespace Ckoklg.Application.Interfaces
 {
 	public interface IModuleService
 	{

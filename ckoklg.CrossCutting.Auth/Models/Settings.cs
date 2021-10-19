@@ -1,7 +1,7 @@
-﻿namespace ckoklg.CrossCutting.Auth.Models
+﻿namespace Ckoklg.CrossCutting.Auth.Models
 {
     public static class Settings
 	{
-		public static string Secret = "ckoklgDotNetFiveAngularEleven"; //Needs to have up to 16 characters.
+		public static string Secret = "CkoklgDotNetFiveAngularEleven"; //Needs to have up to 16 characters.
 	}
 }

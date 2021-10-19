@@ -1,4 +1,4 @@
-﻿namespace ckoklg.CrossCutting.Notification.ViewModels
+﻿namespace Ckoklg.CrossCutting.Notification.ViewModels
 {
     public class EmailConfiguration
 	{

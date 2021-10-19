@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using ckoklg.CrossCutting.Notification.ViewModels;
+using Ckoklg.CrossCutting.Notification.ViewModels;
 
-namespace ckoklg.CrossCutting.Notification.Interfaces
+namespace Ckoklg.CrossCutting.Notification.Interfaces
 {
     public interface IEmailSender
     {

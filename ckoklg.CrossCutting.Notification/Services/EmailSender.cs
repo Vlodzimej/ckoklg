@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ckoklg.CrossCutting.Notification.Interfaces;
-using ckoklg.CrossCutting.Notification.ViewModels;
+using Ckoklg.CrossCutting.Notification.Interfaces;
+using Ckoklg.CrossCutting.Notification.ViewModels;
 
-namespace ckoklg.CrossCutting.Notification.Services
+namespace Ckoklg.CrossCutting.Notification.Services
 {
     public class EmailSender : IEmailSender
 	{
@@ -23,9 +23,9 @@ namespace ckoklg.CrossCutting.Notification.Services
 			return code switch
 			{
 				"ACCOUNT-CREATED" => "Welcome {0} <br/><br/> Your account has been created successfully.<br/>" +
-	"Please, activate it in the link below: {1}<br/><br/><b>ckoklg</b>",
-				"FORGOT-PASSWORD" => "Hi {0} <br/><br/> The code to change the password is: <b>{1}</ b><br/><br/><b>ckoklg</b>",
-				"PASSWORD-CHANGED" => "Hi {0} <br/><br/> Your password has been changed successfully.<br/><br/><b> ckoklg </b> ",
+	"Please, activate it in the link below: {1}<br/><br/><b>Ckoklg</b>",
+				"FORGOT-PASSWORD" => "Hi {0} <br/><br/> The code to change the password is: <b>{1}</ b><br/><br/><b>Ckoklg</b>",
+				"PASSWORD-CHANGED" => "Hi {0} <br/><br/> Your password has been changed successfully.<br/><br/><b> Ckoklg </b> ",
 				_ => "",
 			};
 		}
@@ -47,7 +47,7 @@ namespace ckoklg.CrossCutting.Notification.Services
 		private MimeMessage CreateEmailMessage(EmailViewModel message, IEnumerable<string> parameters)
 		{
 			var emailMessage = new MimeMessage();
-			emailMessage.From.Add(new MailboxAddress("ckoklg", _emailConfig.From));
+			emailMessage.From.Add(new MailboxAddress("Ckoklg", _emailConfig.From));
 			emailMessage.To.AddRange(message.Recipients);
 			emailMessage.Subject = message.Subject;
 

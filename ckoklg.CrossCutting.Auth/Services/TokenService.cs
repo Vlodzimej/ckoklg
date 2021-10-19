@@ -3,11 +3,11 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.Auth.Models;
-using ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.Auth.Models;
+using Ckoklg.CrossCutting.Auth.ViewModels;
 
-namespace ckoklg.CrossCutting.Auth.Services
+namespace Ckoklg.CrossCutting.Auth.Services
 {
     public class TokenService : ITokenService
     {

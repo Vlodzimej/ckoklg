@@ -1,15 +1,15 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
-using ckoklg.Application.Interfaces;
-using ckoklg.Application.Services;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.Auth.Services;
-using ckoklg.CrossCutting.Notification.Interfaces;
-using ckoklg.CrossCutting.Notification.Services;
-using ckoklg.Data.Repositories;
-using ckoklg.Domain.Interfaces;
+using Ckoklg.Application.Interfaces;
+using Ckoklg.Application.Services;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.Auth.Services;
+using Ckoklg.CrossCutting.Notification.Interfaces;
+using Ckoklg.CrossCutting.Notification.Services;
+using Ckoklg.Data.Repositories;
+using Ckoklg.Domain.Interfaces;
 
-namespace ckoklg.CrossCutting.IoC
+namespace Ckoklg.CrossCutting.IoC
 {
     public static class NativeInjector
     {

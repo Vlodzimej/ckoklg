@@ -5,11 +5,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using ckoklg.Data.Context;
-using ckoklg.Domain.Entities;
-using ckoklg.Domain.Interfaces;
+using Ckoklg.Data.Context;
+using Ckoklg.Domain.Entities;
+using Ckoklg.Domain.Interfaces;
 
-namespace ckoklg.Data.Repositories
+namespace Ckoklg.Data.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {

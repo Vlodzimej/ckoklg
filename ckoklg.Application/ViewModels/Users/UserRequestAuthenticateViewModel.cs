@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ckoklg.Application.ViewModels.Users
+namespace Ckoklg.Application.ViewModels.Users
 {
     public class UserRequestAuthenticateViewModel
 	{

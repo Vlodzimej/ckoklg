@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace ckoklg.CrossCutting.ExceptionHandler.Extensions
+namespace Ckoklg.CrossCutting.ExceptionHandler.Extensions
 {
     public class ApiException : Exception
     {

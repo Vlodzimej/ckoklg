@@ -9,10 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ckoklg.CrossCutting.Auth\ckoklg.CrossCutting.Auth.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.ExceptionHandler\ckoklg.CrossCutting.ExceptionHandler.csproj" />
-    <ProjectReference Include="..\ckoklg.CrossCutting.Notification\ckoklg.CrossCutting.Notification.csproj" />
-    <ProjectReference Include="..\ckoklg.Domain\ckoklg.Domain.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.Auth\Ckoklg.CrossCutting.Auth.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.ExceptionHandler\Ckoklg.CrossCutting.ExceptionHandler.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.Notification\Ckoklg.CrossCutting.Notification.csproj" />
+    <ProjectReference Include="..\Ckoklg.Domain\Ckoklg.Domain.csproj" />
   </ItemGroup>
 
 </Project>

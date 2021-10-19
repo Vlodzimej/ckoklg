@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ckoklg.CrossCutting.ExceptionHandler\ckoklg.CrossCutting.ExceptionHandler.csproj" />
+    <ProjectReference Include="..\Ckoklg.CrossCutting.ExceptionHandler\Ckoklg.CrossCutting.ExceptionHandler.csproj" />
   </ItemGroup>
 
 </Project>

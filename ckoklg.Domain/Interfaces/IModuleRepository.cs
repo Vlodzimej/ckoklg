@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ckoklg.Domain.Entities;
+using Ckoklg.Domain.Entities;
 
-namespace ckoklg.Domain.Interfaces
+namespace Ckoklg.Domain.Interfaces
 {
     public interface IModuleRepository
 	{

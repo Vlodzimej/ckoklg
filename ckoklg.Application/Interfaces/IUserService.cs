@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ckoklg.Application.ViewModels.Users;
+using Ckoklg.Application.ViewModels.Users;
 
-namespace ckoklg.Application.Interfaces
+namespace Ckoklg.Application.Interfaces
 {
 	public interface IUserService
 	{

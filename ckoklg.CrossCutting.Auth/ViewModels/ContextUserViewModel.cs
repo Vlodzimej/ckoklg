@@ -1,4 +1,4 @@
-﻿namespace ckoklg.CrossCutting.Auth.ViewModels
+﻿namespace Ckoklg.CrossCutting.Auth.ViewModels
 {
     public class ContextUserViewModel
     {

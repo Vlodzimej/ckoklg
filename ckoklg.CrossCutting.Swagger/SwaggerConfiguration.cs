@@ -5,7 +5,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 
-namespace ckoklg.CrossCutting.Swagger
+namespace Ckoklg.CrossCutting.Swagger
 {
     public static class SwaggerConfiguration
     {
@@ -16,7 +16,7 @@ namespace ckoklg.CrossCutting.Swagger
                 options.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "ckoklg",
+                        Title = "Ckoklg",
                         Version = "v1",
                         Description = $".Net 5 + Angular 11",
                         Contact = new OpenApiContact

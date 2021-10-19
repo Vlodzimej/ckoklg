@@ -1,6 +1,6 @@
-﻿using ckoklg.Application.ViewModels.Profiles;
+﻿using Ckoklg.Application.ViewModels.Profiles;
 
-namespace ckoklg.Application.ViewModels.Users
+namespace Ckoklg.Application.ViewModels.Users
 {
     public class UserResponseListViewModel : EntityViewModel
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ckoklg.Domain.Entities
+namespace Ckoklg.Domain.Entities
 {
     public class Entity
     {

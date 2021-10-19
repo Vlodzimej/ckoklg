@@ -24,6 +24,7 @@ import { AccountComponent } from './account/account.component';
 
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [AppComponent, NavMenuComponent, HomeComponent, LoginComponent, DashboardComponent, UsersComponent, AccountComponent],
@@ -47,6 +48,7 @@ import { MatInputModule } from '@angular/material/input';
     }),
     MatSelectModule,
     MatInputModule,
+    MatTableModule,
   ],
   providers: [ModuleService, UserService, AlertService, ErrorService, AppComponent, NavMenuComponent],
   bootstrap: [AppComponent],

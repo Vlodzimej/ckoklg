@@ -1,4 +1,4 @@
-﻿namespace ckoklg.CrossCutting.Auth.Models
+﻿namespace Ckoklg.CrossCutting.Auth.Models
 {
     public class UserAuth
 	{

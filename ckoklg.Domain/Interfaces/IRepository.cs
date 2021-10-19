@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ckoklg.Domain.Interfaces
+namespace Ckoklg.Domain.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : class
     {

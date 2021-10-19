@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg", "ckoklg\ckoklg.csproj", "{AAAEE455-3AFE-42B1-A75F-01D40333E718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg", "Ckoklg\Ckoklg.csproj", "{AAAEE455-3AFE-42B1-A75F-01D40333E718}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Web", "1-Web", "{6FEED039-CC4D-4CB6-AF39-7B1BD1E6EDBE}"
 EndProject
@@ -17,25 +17,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{F8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{13779FA3-D71B-4254-9EB3-944FE5DFB998}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.Application", "ckoklg.Application\ckoklg.Application.csproj", "{80EF0FF9-44F4-49F0-9C4B-B9845686C0B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.Application", "Ckoklg.Application\Ckoklg.Application.csproj", "{80EF0FF9-44F4-49F0-9C4B-B9845686C0B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.Domain", "ckoklg.Domain\ckoklg.Domain.csproj", "{19B2550D-23EF-446C-A543-90F4B6CE3C81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.Domain", "Ckoklg.Domain\Ckoklg.Domain.csproj", "{19B2550D-23EF-446C-A543-90F4B6CE3C81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.Data", "ckoklg.Data\ckoklg.Data.csproj", "{FCA3D4F7-58CC-4575-9B3C-4F860E94DA78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.Data", "Ckoklg.Data\Ckoklg.Data.csproj", "{FCA3D4F7-58CC-4575-9B3C-4F860E94DA78}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.CrossCutting.Auth", "ckoklg.CrossCutting.Auth\ckoklg.CrossCutting.Auth.csproj", "{C8F5FEB8-EC33-4070-B791-E7F7DD4C19C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.CrossCutting.Auth", "Ckoklg.CrossCutting.Auth\Ckoklg.CrossCutting.Auth.csproj", "{C8F5FEB8-EC33-4070-B791-E7F7DD4C19C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.CrossCutting.IoC", "ckoklg.CrossCutting.IoC\ckoklg.CrossCutting.IoC.csproj", "{A8E1BD16-8E81-451C-8CB7-4EF877E01591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.CrossCutting.IoC", "Ckoklg.CrossCutting.IoC\Ckoklg.CrossCutting.IoC.csproj", "{A8E1BD16-8E81-451C-8CB7-4EF877E01591}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.CrossCutting.Swagger", "ckoklg.CrossCutting.Swagger\ckoklg.CrossCutting.Swagger.csproj", "{102E1000-86EF-4C19-BE52-3550EB610B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.CrossCutting.Swagger", "Ckoklg.CrossCutting.Swagger\Ckoklg.CrossCutting.Swagger.csproj", "{102E1000-86EF-4C19-BE52-3550EB610B25}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.CrossCutting.Notification", "ckoklg.CrossCutting.Notification\ckoklg.CrossCutting.Notification.csproj", "{ED4D6C68-C037-43F0-A332-0B34586A22B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.CrossCutting.Notification", "Ckoklg.CrossCutting.Notification\Ckoklg.CrossCutting.Notification.csproj", "{ED4D6C68-C037-43F0-A332-0B34586A22B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ckoklg.CrossCutting.ExceptionHandler", "ckoklg.CrossCutting.ExceptionHandler\ckoklg.CrossCutting.ExceptionHandler.csproj", "{5480AFB8-E206-41CA-9C80-201691C2DA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ckoklg.CrossCutting.ExceptionHandler", "Ckoklg.CrossCutting.ExceptionHandler\Ckoklg.CrossCutting.ExceptionHandler.csproj", "{5480AFB8-E206-41CA-9C80-201691C2DA91}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Tests", "0-Tests", "{8D9A23D4-8F34-456A-83A8-7ED3A0A8ECD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ckoklg.Test", "ckoklg.Test\ckoklg.Test.csproj", "{D6D198EE-7102-4D1D-9E6B-06589CBBDDDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ckoklg.Test", "Ckoklg.Test\Ckoklg.Test.csproj", "{D6D198EE-7102-4D1D-9E6B-06589CBBDDDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

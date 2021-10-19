@@ -1,4 +1,4 @@
-﻿namespace ckoklg.Application.Interfaces
+﻿namespace Ckoklg.Application.Interfaces
 {
 	public interface IProfileService
 	{

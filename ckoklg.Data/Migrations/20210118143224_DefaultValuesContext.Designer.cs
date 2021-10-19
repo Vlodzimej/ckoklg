@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ckoklg.Data.Context;
+using Ckoklg.Data.Context;
 
-namespace ckoklg.Data.Migrations
+namespace Ckoklg.Data.Migrations
 {
     [DbContext(typeof(MySQLContext))]
     [Migration("20210118143224_DefaultValuesContext")]
@@ -19,7 +19,7 @@ namespace ckoklg.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.Module", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.Module", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -75,7 +75,7 @@ namespace ckoklg.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.ModuleProfile", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.ModuleProfile", b =>
                 {
                     b.Property<int>("ModuleId")
                         .HasColumnType("int");
@@ -102,7 +102,7 @@ namespace ckoklg.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.Profile", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.Profile", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -159,7 +159,7 @@ namespace ckoklg.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.User", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -215,7 +215,7 @@ namespace ckoklg.Data.Migrations
                             Id = 1,
                             CreatedDate = new DateTime(2021, 1, 18, 14, 32, 23, 775, DateTimeKind.Local).AddTicks(6768),
                             CreatedUser = 1,
-                            Email = "admin@ckoklg.com",
+                            Email = "admin@Ckoklg.com",
                             IsActive = true,
                             IsAuthorised = true,
                             Name = "Admin",
@@ -228,7 +228,7 @@ namespace ckoklg.Data.Migrations
                             Id = 2,
                             CreatedDate = new DateTime(2021, 1, 18, 14, 32, 23, 778, DateTimeKind.Local).AddTicks(3754),
                             CreatedUser = 1,
-                            Email = "user@ckoklg.com",
+                            Email = "user@Ckoklg.com",
                             IsActive = true,
                             IsAuthorised = true,
                             Name = "User",
@@ -238,15 +238,15 @@ namespace ckoklg.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.ModuleProfile", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.ModuleProfile", b =>
                 {
-                    b.HasOne("ckoklg.Domain.Entities.Module", "Module")
+                    b.HasOne("Ckoklg.Domain.Entities.Module", "Module")
                         .WithMany()
                         .HasForeignKey("ModuleId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ckoklg.Domain.Entities.Profile", "Profile")
+                    b.HasOne("Ckoklg.Domain.Entities.Profile", "Profile")
                         .WithMany()
                         .HasForeignKey("ProfileId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -257,9 +257,9 @@ namespace ckoklg.Data.Migrations
                     b.Navigation("Profile");
                 });
 
-            modelBuilder.Entity("ckoklg.Domain.Entities.User", b =>
+            modelBuilder.Entity("Ckoklg.Domain.Entities.User", b =>
                 {
-                    b.HasOne("ckoklg.Domain.Entities.Profile", "Profile")
+                    b.HasOne("Ckoklg.Domain.Entities.Profile", "Profile")
                         .WithMany()
                         .HasForeignKey("ProfileId")
                         .OnDelete(DeleteBehavior.Restrict)

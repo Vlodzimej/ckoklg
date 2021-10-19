@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ckoklg.Application.Interfaces;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.Application.Interfaces;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.Auth.ViewModels;
 
-namespace ckoklg.Controllers
+namespace Ckoklg.Controllers
 {
 	[Route("api/[controller]"), ApiController]
 	public class ModulesController : ControllerBase

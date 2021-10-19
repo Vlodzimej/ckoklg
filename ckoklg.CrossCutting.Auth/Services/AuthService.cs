@@ -6,11 +6,11 @@ using System.Net;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using ckoklg.CrossCutting.Auth.Interfaces;
-using ckoklg.CrossCutting.Auth.ViewModels;
-using ckoklg.CrossCutting.ExceptionHandler.Extensions;
+using Ckoklg.CrossCutting.Auth.Interfaces;
+using Ckoklg.CrossCutting.Auth.ViewModels;
+using Ckoklg.CrossCutting.ExceptionHandler.Extensions;
 
-namespace ckoklg.CrossCutting.Auth.Services
+namespace Ckoklg.CrossCutting.Auth.Services
 {
     public class AuthService : IAuthService
     {

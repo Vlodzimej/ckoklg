@@ -8,6 +8,13 @@
     width: 100%;
   }
   
-  td {
-    padding-right: 8px;
+
+.filter-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
   }

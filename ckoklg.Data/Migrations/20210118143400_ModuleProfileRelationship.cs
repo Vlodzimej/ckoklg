@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ckoklg.Data.Migrations
+namespace Ckoklg.Data.Migrations
 {
     public partial class ModuleProfileRelationship : Migration
     {
